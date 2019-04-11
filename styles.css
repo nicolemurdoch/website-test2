@@ -1,0 +1,52 @@
+body {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  color: #00213a;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  margin-left: 40px;
+  background: #f2e2dd;
+}
+
+h1 {
+  /* This sets the background using an html named color */
+  background: none;
+}
+
+
+
+.astoria-park {
+  width: 400px;
+  border-radius: 5px;
+  margin-left: 35px;
+}
+
+text {
+ color: #426c79;
+}
+
+.queens-comfort {
+
+}
+
+.local-food {
+  padding: 15px;
+  margin: 5px;
+  background: #B744CE;
+  cursor: pointer;
+}
+
+.local-food:hover {
+  background: red;
+}
+
+#local-food-info {
+  border: 3px solid;
+  min-height: 100px;
+  padding: 20px;
+}
