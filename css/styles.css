@@ -1,0 +1,46 @@
+body {
+  /* This sets the background using a hex color */
+  background: #fff2e6;
+  font-family: sans-serif;
+  color: #0099cc;
+  text-align: center;
+}
+
+h1 {
+  /* This sets the background using an html named color */
+  background: none;
+  font-family: sans-serif;
+  color: #0099cc;
+}
+
+text {
+ color: #426c79;
+}
+
+.my-photo {
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 10px;
+  outline: 10px;
+  outline-style: dotted;
+  outline-width: 4px;
+  outline-color: #b3d9ff;
+ }
+
+.local-food {
+  padding: 15px;
+  margin: 5px;
+  background: #B744CE;
+  cursor: pointer;
+}
+
+.local-food:hover {
+  background: red;
+}
+
+#local-food-info {
+  border: 3px solid;
+  min-height: 100px;
+  padding: 20px;
+}
