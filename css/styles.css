@@ -1,8 +1,8 @@
 body {
   /* This sets the background using a hex color */
-  background: #fff2e6;
+  background-color: #fff2e6;
   font-family: sans-serif;
-  color: #0099cc;
+  color: #426c79;
   text-align: center;
 }
 
@@ -15,6 +15,24 @@ h1 {
 
 text {
  color: #426c79;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h4 {
+}
+
+#interest-list {
+  background: none;
+  text-align: left;
+  color: #426c79;
+  width: 400px;
+  border: 4px solid #b3d9ff;
+  border-style: dotted;
+  margin: auto;
+  padding: 25px;
 }
 
 .my-photo {
@@ -31,16 +49,52 @@ text {
 .local-food {
   padding: 15px;
   margin: 5px;
-  background: #B744CE;
+  background: rgba(255, 99, 71, 0.5);
   cursor: pointer;
+  text-Color: white;
 }
 
 .local-food:hover {
-  background: red;
+  background: navy;
+  text-transform: uppercase;
 }
 
 #local-food-info {
   border: 3px solid;
-  min-height: 100px;
-  padding: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  min-height: 25px;
+  padding: 5px;
+  margin: auto
+}
+
+#madame-sousou {
+  width: 400px;
+  margin: auto;
+  opacity: .5;
+}
+
+#queens-comfort {
+  width: 400px;
+  margin: auto;
+  opacity: .5;
+}
+
+#taverna {
+  width: 400px;
+  margin: auto;
+  opacity: .5;
+}
+
+#queens-comfort:hover {
+  opacity: 1;
+}
+
+#madame-sousou:hover {
+  opacity: 1;
+}
+
+#taverna:hover {
+  opacity: 1;
 }

@@ -11,13 +11,13 @@ $('#default-button').on('click', function() {
 });
 
 $('.madame-sousou').on('click', function() {
-  $('#local-food-info').text('laaaaalalalla');
+  $('#local-food-info').text('For the Espresso Snobs of the World');
 });
 
 $('.queens-comfort').on('click', function() {
-  $('#local-food-info').img('YUMMMMM');
+  $('#local-food-info').img('If you hanker for artery-clogging goodness');
 });
 
 $('.vite-italian').on('click', function() {
-  $('#local-food-info').text('Mamma Mia!!!');
+  $('#local-food-info').text('some of the best local italian around - seasonal, innovative menu');
 });
